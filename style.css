@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color:#7d98baa2;*/
+    font-family: "Signika", sans-serif;
+    background-image: url(backgrond.jpeg);
+}
+#name{
+    margin-left: 8px;
+    font-size: 60px;
+    color: rgb(67, 67, 115);
+    background-color: #fff;
+    width: 350px;
+}
+.profile{
+    width: 40%;/*دس انا بخصص من الميه ف الميه بتاعة الشاشه بخصص اربعين ف الميه ل كلاس البروقايل الي فيه الصوره*/
+    float: right;
+    text-align: center; 
+}
+.profile img{
+    width: 70%;
+    text-align: center;
+    border-bottom: 5px solid gray;
+   /* border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;*/
+    border-radius: 40%;
+}
+.about{
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: "DM Serif Text", serif;
+}
+.profile-info{
+    width: 60%;/*دي انا بخصص باقي الميه ف الميه من الشاشه ستين ف الميه*/
+    height: 100vh;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar{
+    width: 0;
+}
+.profile-info h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social img{
+    width: 40px;
+    margin-right: 15;
+    cursor: pointer;
+    transition: 2s;
+}
+.social img:hover{
+    transform: rotate(360deg);/*علشان دي تشتغل لازم ابقي حاطط الترانزيشن الي فوق الي هو ثانيتين*/
+}
+.profile-info h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    font-size: 40px;
+    background-color: rgba(215, 211, 211, 0.575);
+}
+#ser{
+    width: 150px;
+}
+#my{
+    width: 210px;
+}
+#ach{
+    width: 250px;
+}
+#con{
+    margin-bottom: 0px;
+    width: 205px;
+}
+.services{
+    display: inline-block;
+    width: 30%;
+    padding: 30px 5px;
+    margin: 1%;
+    text-align: center;
+    box-shadow: 0 0 30px black;
+    background-color: rgba(222, 205, 205, 0.368);
+}
+/*.services img{
+    width: 95%;
+    margin: 0px;
+}*/
+#a1{
+    width: 95%;
+}
+#a2{
+    width: 95%;
+}
+#a3{
+    width: 100%;
+    height: 175px;
+}
+#a4{
+    width: 95%;
+}
+.services small{
+    padding-top: 15px;
+    display: block;
+    font-family: "Playfair Display", serif;
+}
+/*.services p{
+    padding-top: 15px;
+    display: block;
+    font-family: "Patua One", serif;
+}*/
+.projects img{
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+.projects video{
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+#ogym{
+    width: 19%;
+}
+#herthik{
+    width: 20%;
+}
+#motzo{
+    width: 40%;
+}
+#cukur{
+    width: 38%;
+}
+#hana{
+    width: 24%;
+}
+#ahly{
+    width: 46.5%;
+}
+#comedian{
+    width: 43%;
+}
+#kaber{
+    width: 29%;
+}
+.Achievements img{
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+.Achievements video{
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+#openLearn{
+    width: 38%;
+}
+#unicef{
+    width: 37.8%;
+}
+#cyber{
+    width: 38%;
+}
+#rwaq{
+    width: 46%;
+}
+#google{
+    width: 48.5%;
+}
+#ver{
+    width: 20%;
+}
+#c{
+    width: 43%;
+}
+#html{
+    width: 43%;
+}
+.email{
+    margin-top: 10px;
+}
+.input input{
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-right: 12px;
+    padding: 5px;
+    /*background-color: rgba(192, 192, 192, 0.337);*/
+    background-color: white;
+}
+.text-area textarea{
+    width: 92%;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-right: 12px;
+    padding: 5px;
+    /*background-color: rgba(192, 192, 192, 0.337);*/
+    background-color: white;
+    font-size: 30px;
+}
+#font{
+    font-family: "Playfair Display", serif;
+}
+.sub{
+    width: 20%;
+    font-size: 30px;
+    border-radius: 50px;
+    /*margin-left: 285px;*/
+    font-weight: bold;
+    color: black;
+    background-color: rgba(250, 249, 249, 0.759);
+    cursor: pointer;
+    text-align: center;
+    transition: ba 0.3s;
+    font-family: "Signika", sans-serif;
+}
+.sub:hover{
+    background-color: rgba(128, 128, 128, 0.196);
+}
+.copy p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: no-drop;
+}
+
+
+@media screen and (max-width:900px) {
+    .profile-info{
+        width: 95%;
+    }
+    .profile{
+        width: 95%;
+    }
+    .profile img{
+        width: 95%;
+    }
+    .services{
+        width: 98%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .projects img{
+        display: block;
+    }
+    .projects video{
+        display: block;
+    }
+    #ogym{
+        width: 70%;
+    }
+    #herthik{
+        width: 98%;
+    }
+    #motzo{
+        width: 98%;
+    }
+    #cukur{
+        width: 98%;
+    }
+    #hana{
+        width: 98%;
+    }
+    #ahly{
+        width: 98%;
+    }
+    #comedian{
+        width: 98%;
+    }
+    #kaber{
+        width: 98%;
+    }
+    #neuer{
+        width: 98%;
+    }
+    .Achievements img{
+        display: block;
+    }
+    .Achievements video{
+        display: block;
+    }
+    #openLearn{
+        width: 98%;
+    }
+    #unicef{
+        width: 98%;
+    }
+    #cyber{
+        width: 98%;
+    }
+    #rwaq{
+        width: 98%;
+    }
+    #google{
+        width: 98%;
+    }
+    #ver{
+        width: 70%;
+    }
+    #c{
+        width: 98%;
+    }
+    #html{
+        width: 98%;
+    }
+    .sub{
+        width: 20%;
+        font-size: 20px;
+        /*margin-left: 285px;*/
+        font-weight: bold;
+        color: black;
+        background-color: rgba(250, 249, 249, 0.759);
+        cursor: pointer;
+        text-align: center;
+        padding: 1px;
+    }
+    .email form{
+        text-align: center;
+    }
+}
